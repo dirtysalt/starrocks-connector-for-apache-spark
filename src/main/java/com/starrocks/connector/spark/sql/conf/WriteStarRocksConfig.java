@@ -168,7 +168,7 @@ public class WriteStarRocksConfig implements StarRocksConfig, Serializable {
     }
 
     public String getRowDelimiter() {
-        return originOptions.getOrDefault(KEY_PROPS_ROW_KEY_PROPS_ROW_DELIMITERDELIMITER, "\n");
+        return originOptions.getOrDefault(KEY_PROPS_ROW_DELIMITER, "\n");
     }
 
     public String getColumnSeparator() {
